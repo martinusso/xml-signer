@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+## xml-signer
 
-You can use the [editor on GitHub](https://github.com/martinusso/xml-signer/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[![Build Status](https://scrutinizer-ci.com/g/martinusso/xml-signer/badges/build.png?b=master)](https://scrutinizer-ci.com/g/martinusso/xml-signer/build-status/master)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/martinusso/xml-signer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/martinusso/xml-signer/?branch=master)
 
-### Markdown
+XML Signer allows you to sign XML documents using X.509 digital certificates.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Installation
 
-# Header 1
-## Header 2
-### Header 3
+You can install the xml-signer in 2 different ways:
 
-- Bulleted
-- List
+Install it via Composer
 
-1. Numbered
-2. List
+`$ composer require martinusso/xml-signer`
 
-**Bold** and _Italic_ and `Code` text
+Or, use the official Git repository (`https://github.com/martinusso/xml-signer`).
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### How to use it
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/martinusso/xml-signer/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Contribute
 
-### Support or Contact
+Please refer to [CONTRIBUTING.md](https://github.com/martinusso/xml-signer/blob/master/CONTRIBUTING.md) for information on how to contribute to XmlSigner
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### License
+
+This library is released under the [MIT license](https://github.com/martinusso/xml-signer/blob/master/LICENSE).
