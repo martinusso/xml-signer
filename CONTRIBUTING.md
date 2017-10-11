@@ -14,7 +14,9 @@
 
 To install the project and run the tests, you need to clone it first:
 
-`$ git clone git@github.com:martinusso/xml-signer.git`
+```
+$ git clone git@github.com:martinusso/xml-signer.git
+```
 
 You will then need to run a composer installation:
 
@@ -26,4 +28,6 @@ $ php composer.phar update
 
 ### Testing
 
-`$ composer test`
+```
+$ composer test
+```
