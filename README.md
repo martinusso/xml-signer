@@ -1,7 +1,6 @@
 ## xml-signer
 
 [![Build Status](https://scrutinizer-ci.com/g/martinusso/xml-signer/badges/build.png?b=master)](https://scrutinizer-ci.com/g/martinusso/xml-signer/build-status/master)
-
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/martinusso/xml-signer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/martinusso/xml-signer/?branch=master)
 
 XML Signer allows you to sign XML documents using X.509 digital certificates.
