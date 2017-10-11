@@ -44,7 +44,6 @@ class Certificate implements SignerInterface, VerifierInterface
         $this->privateKey = $privateKey;
         $this->publicKey = $publicKey;
         $this->chainKeysString = $chainKeysString;
-        // $this->chainKeys = $chainKeys;
     }
 
     /**

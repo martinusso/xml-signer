@@ -7,35 +7,35 @@ class CertificateException extends \RuntimeException implements ExceptionInterfa
     public static function invalidSignature()
     {
         return new static(
-            'An error has occurred when verify signature, ' . static::openSSLError()
+            'An error has occurred when verify signature, ' . self::openSSLError()
         );
     }
 
     public static function privateKey()
     {
         return new static(
-            'An error has occurred when get private key, ' . static::openSSLError()
+            'An error has occurred when get private key, ' . self::openSSLError()
         );
     }
 
     public static function publicKey()
     {
         return new static(
-            'An error has occurred when read public key, ' . static::openSSLError()
+            'An error has occurred when read public key, ' . self::openSSLError()
         );
     }
 
     public static function signContent()
     {
         return new static(
-            'An unexpected error has occurred when sign a content, ' . static::openSSLError()
+            'An unexpected error has occurred when sign a content, ' . self::openSSLError()
         );
     }
 
     public static function unableToRead()
     {
         return new static(
-            'Unable to read certificate, ' . static::openSSLError()
+            'Unable to read certificate, ' . self::openSSLError()
         );
     }
 
