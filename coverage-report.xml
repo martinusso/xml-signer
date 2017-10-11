@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1507749759">
+  <project timestamp="1507749759">
+    <package name="XmlSigner">
+      <file name="/home/breno/dev/www/xml-signer/src/XmlSigner/Certificate.php">
+        <class name="Certificate" namespace="XmlSigner">
+          <metrics complexity="7" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="21" coveredelements="21"/>
+        </class>
+        <line num="16" type="method" name="readPfx" visibility="public" complexity="4" crap="4" count="2"/>
+        <line num="18" type="stmt" count="2"/>
+        <line num="19" type="stmt" count="2"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="39" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="48" type="stmt" count="1"/>
+        <line num="53" type="method" name="sign" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="55" type="stmt" count="1"/>
+        <line num="58" type="method" name="verify" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <metrics loc="62" ncloc="50" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="21" coveredelements="21"/>
+      </file>
+      <file name="/home/breno/dev/www/xml-signer/src/XmlSigner/PrivateKey.php">
+        <class name="PrivateKey" namespace="XmlSigner">
+          <metrics complexity="5" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="10" elements="14" coveredelements="12"/>
+        </class>
+        <line num="12" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="14" type="stmt" count="3"/>
+        <line num="15" type="stmt" count="3"/>
+        <line num="16" type="stmt" count="2"/>
+        <line num="18" type="method" name="read" visibility="private" complexity="2" crap="2" count="3"/>
+        <line num="20" type="stmt" count="3"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="23" type="stmt" count="2"/>
+        <line num="24" type="stmt" count="2"/>
+        <line num="29" type="method" name="sign" visibility="public" complexity="2" crap="2.06" count="2"/>
+        <line num="31" type="stmt" count="2"/>
+        <line num="32" type="stmt" count="2"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="2"/>
+        <metrics loc="37" ncloc="34" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="10" elements="14" coveredelements="12"/>
+      </file>
+      <file name="/home/breno/dev/www/xml-signer/src/XmlSigner/PublicKey.php">
+        <class name="PublicKey" namespace="XmlSigner">
+          <metrics complexity="3" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="5" elements="8" coveredelements="6"/>
+        </class>
+        <line num="13" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="15" type="stmt" count="3"/>
+        <line num="16" type="stmt" count="3"/>
+        <line num="18" type="method" name="verify" visibility="public" complexity="2" crap="2.06" count="3"/>
+        <line num="20" type="stmt" count="3"/>
+        <line num="21" type="stmt" count="3"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="3"/>
+        <metrics loc="26" ncloc="26" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="5" elements="8" coveredelements="6"/>
+      </file>
+    </package>
+    <package name="XmlSigner\Exception">
+      <file name="/home/breno/dev/www/xml-signer/src/XmlSigner/Exception/CertificateException.php">
+        <class name="CertificateException" namespace="XmlSigner\Exception">
+          <metrics complexity="7" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="20" coveredelements="20"/>
+        </class>
+        <line num="7" type="method" name="invalidSignature" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="9" type="stmt" count="1"/>
+        <line num="10" type="stmt" count="1"/>
+        <line num="14" type="method" name="privateKey" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="16" type="stmt" count="2"/>
+        <line num="17" type="stmt" count="2"/>
+        <line num="21" type="method" name="publicKey" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="28" type="method" name="signContent" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="35" type="method" name="unableToRead" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="42" type="method" name="openSSLError" visibility="private" complexity="2" crap="2" count="6"/>
+        <line num="44" type="stmt" count="6"/>
+        <line num="45" type="stmt" count="6"/>
+        <line num="46" type="stmt" count="2"/>
+        <line num="48" type="stmt" count="6"/>
+        <metrics loc="50" ncloc="50" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="20" coveredelements="20"/>
+      </file>
+    </package>
+    <file name="/home/breno/dev/www/xml-signer/src/XmlSigner/Exception/ExceptionInterface.php">
+      <metrics loc="7" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/home/breno/dev/www/xml-signer/src/XmlSigner/SignerInterface.php">
+      <metrics loc="15" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/home/breno/dev/www/xml-signer/src/XmlSigner/VerifierInterface.php">
+      <metrics loc="16" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="7" loc="213" ncloc="183" classes="4" methods="15" coveredmethods="13" conditionals="0" coveredconditionals="0" statements="48" coveredstatements="46" elements="63" coveredelements="59"/>
+  </project>
+</coverage>
