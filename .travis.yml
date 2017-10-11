@@ -1,0 +1,12 @@
+language: php
+sudo: false
+dist: trusty
+php:
+  - 7.0
+  - 7.1
+  - nightly
+before_install:
+  - composer self-update
+cache:
+  directories:
+    - $HOME/.composer/cache
