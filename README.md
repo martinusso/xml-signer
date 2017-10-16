@@ -15,11 +15,18 @@ Install it via Composer
 
 `$ composer require martinusso/xml-signer`
 
-Or, use the official Git repository (`https://github.com/martinusso/xml-signer`).
+Or, clone the Git repository (`https://github.com/martinusso/xml-signer`).
 
 
 ### How to use it
 
+#### Instantiating a certificate object with PFX file
+
+```
+$password = '.pfx password here!';
+$pfx = file_get_contents('path/to/certificate.pfx');
+return Certificate::readPfx($pfx, $password);
+```
 
 ### Contribute
 
