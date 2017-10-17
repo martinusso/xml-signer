@@ -22,6 +22,17 @@ final class PublicKeyTest extends \PHPUnit\Framework\TestCase
         $this->assertTrue($verified);
     }
 
+    public function testUnformatted()
+    {
+        $publicKey = $this->publicKey();
+        $expected = preg_replace('/-----.*[\n]?/', '', $publicKey);
+        $expected = preg_replace('/[\n\r]/', '', $expected);
+
+        $got = (new PublicKey($publicKey))->unformated();
+
+        $this->assertEquals($expected, $got);
+    }
+
     private function publicKey()
     {
         $pk = 'tests/resources/public_key.pem';

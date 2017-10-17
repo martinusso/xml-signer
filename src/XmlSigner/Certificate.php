@@ -10,7 +10,7 @@ class Certificate implements SignerInterface, VerifierInterface
      * Read a PFX certificate and return this class
      * @param string $content
      * @param string $password
-     * @return \static
+     * @return Certificate
      * @throws CertificateException
      */
     public static function readPfx($content, $password)
@@ -54,8 +54,16 @@ class Certificate implements SignerInterface, VerifierInterface
         return $this->privateKey->sign($content, $algorithm);
     }
 
+    /**
+     * {@inheritdoc}
+     */
     public function verify($data, $signature, $algorithm = OPENSSL_ALGO_SHA1)
     {
         return $this->publicKey->verify($data, $signature, $algorithm);
+    }
+
+    public function publicKey() : string
+    {
+        return $this->publicKey->unformated();
     }
 }
