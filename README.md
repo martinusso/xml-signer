@@ -26,7 +26,14 @@ Or, clone the Git repository (`https://github.com/martinusso/xml-signer`).
 ```
 $password = '.pfx password here!';
 $pfx = file_get_contents('path/to/certificate.pfx');
-return Certificate::readPfx($pfx, $password);
+$certificate = Certificate::readPfx($pfx, $password);
+```
+
+#### signing a xml
+
+```
+$signer = new Signer($certificate);
+$xmlSigned = $signer->xml($XmlContent, $tagName);
 ```
 
 ### Contribute
