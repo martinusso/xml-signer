@@ -8,7 +8,7 @@
  - Fork the project.
  - Make your bug fix or feature addition.
  - Add tests for it. No test, no :beers:
- - Send a pull request. Bonus points for topic branches.
+ - Send a pull request.
 
 ### Installation
 
@@ -30,4 +30,11 @@ $ php composer.phar update
 
 ```
 $ composer test
+```
+
+or 
+
+
+```
+$ composer test-cover
 ```
